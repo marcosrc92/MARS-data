@@ -1,0 +1,4 @@
+ Start (ns)   Duration (ns)  CorrId  GrdX  GrdY  GrdZ  BlkX  BlkY  BlkZ  Reg/Trd  StcSMem (MB)  DymSMem (MB)  Bytes (MB)  Throughput (MBps)  SrcMemKd  DstMemKd   Device   Ctx  Strm                Name              
+ -----------  -------------  ------  ----  ----  ----  ----  ----  ----  -------  ------------  ------------  ----------  -----------------  --------  --------  --------  ---  ----  --------------------------------
+ 257.238.208          8.640     105  None  None  None  None  None  None     None  None          None          0,016       1896,284           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]              
+ 257.819.968          5.760     116  None  None  None  None  None  None     None  None          None          0,016       2844,443           Device    Pageable  Orin (0)    1     7  [CUDA memcpy DtoH]              

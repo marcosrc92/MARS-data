@@ -1,0 +1,5 @@
+ Total (MB)  Count  Avg (MB)  Med (MB)  Min (MB)  Max (MB)  StdDev (MB)      Operation     
+ ----------  -----  --------  --------  --------  --------  -----------  ------------------
+ 39,055         46  0,849     0,000     0,000     1,952     0,978        [CUDA memcpy HtoD]
+ 0,042           4  0,011     0,011     0,008     0,013     0,003        [CUDA memcpy DtoH]
+

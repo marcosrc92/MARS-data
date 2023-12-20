@@ -1,0 +1,8 @@
+ Time (%)  Total Time (ns)  Instances    Avg (ns)      Med (ns)     Min (ns)    Max (ns)   StdDev (ns)     GridXYZ         BlockXYZ                                                    Name                                                
+ --------  ---------------  ---------  ------------  ------------  ----------  ----------  -----------  --------------  --------------  ---------------------------------------------------------------------------------------------------
+     87,0   89.412.255.648      6.000  14.902.042,0  10.612.000,0  10.561.600  46.531.584  6.701.149,0  1512    1    1   128    1    1  cuda_compute_flux(int, int *, double *, double *, double *, double *, double *, double *, double *)
+      6,0    6.445.913.216      6.000   1.074.318,0     760.512,0     755.616   8.922.080    900.417,0  1512    1    1   128    1    1  cuda_compute_flux_contributions(int, double *, double *, double *, double *, double *)             
+      3,0    3.909.807.936      2.000   1.954.904,0   1.395.328,0   1.389.600   5.817.888  1.124.734,0  1512    1    1   128    1    1  cuda_compute_step_factor(int, double *, double *, double *)                                        
+      2,0    2.231.761.440      6.000     371.960,0     276.320,0     272.800   8.396.320    517.004,0  1512    1    1   128    1    1  cuda_time_step(int, int, double *, double *, double *, double *)                                   
+      0,0          675.552          3     225.184,0     224.288,0     220.864     230.400      4.830,0  1512    1    1   128    1    1  cuda_initialize_variables(int, double *)                                                           
+

@@ -1,0 +1,59 @@
+The following are synchronous memory transfers that block the host. This does
+not include host to device transfers of a memory block of 64 KB or less.
+
+ Duration (ns)   Start (ns)    Src Kind  Dst Kind  Bytes (MB)     PID     Device ID  Context ID  Stream ID      API Name    
+ -------------  -------------  --------  --------  ----------  ---------  ---------  ----------  ---------  ----------------
+       667.616    855.451.136  Pageable  Device    4,663       1.088.809          0           1          7  cudaMemcpy_v3020
+       131.552    853.350.880  Pageable  Device    1,554       1.088.809          0           1          7  cudaMemcpy_v3020
+       121.472  5.283.355.168  Device    Pageable  1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        80.032    863.183.712  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        61.216  3.245.483.456  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        61.088  4.185.315.744  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.960    932.456.448  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.960  1.781.963.648  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.960  3.670.618.752  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.896  1.161.830.784  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.896  2.489.568.480  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.864  2.556.751.840  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.832  2.393.284.896  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.800  1.882.775.104  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.800  3.185.066.592  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.800  3.446.883.808  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.800  3.963.727.008  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.768  1.876.054.976  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.768  3.339.526.240  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.768  3.845.175.040  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.736  1.141.683.584  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.736  2.576.927.008  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.704  1.291.686.720  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.704  2.066.253.792  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.704  3.699.698.752  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672    923.686.944  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  1.045.420.512  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  2.245.395.392  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  3.039.448.064  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  3.070.909.728  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  3.352.956.160  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.672  4.187.578.752  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  1.425.982.688  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  1.761.804.576  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  1.909.660.768  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  3.025.982.752  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  3.055.172.128  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.640  3.169.400.224  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608    869.983.392  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  1.318.547.968  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  1.495.411.840  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  1.665.569.440  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  2.339.536.576  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  2.861.464.992  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  3.102.319.520  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  3.910.058.688  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.608  3.945.847.168  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.576  1.096.893.152  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.576  1.842.484.480  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+        60.576  2.014.790.944  Device    Device    1,943       1.088.809          0           1          7  cudaMemcpy_v3020
+
+Only the top 50 results are displayed. More data may be available.
+
+

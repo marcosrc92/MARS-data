@@ -1,0 +1,71 @@
+ Start (ns)   Duration (ns)  CorrId  GrdX  GrdY  GrdZ  BlkX  BlkY  BlkZ  Reg/Trd  StcSMem (MB)  DymSMem (MB)  Bytes (MB)  Throughput (MBps)  SrcMemKd  DstMemKd   Device   Ctx  Strm         Name       
+ -----------  -------------  ------  ----  ----  ----  ----  ----  ----  -------  ------------  ------------  ----------  -----------------  --------  --------  --------  ---  ----  ------------------
+ 237.343.296          6.048     106  None  None  None  None  None  None  None     None          None          0,000       13,227             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 237.511.264          1.536     114  None  None  None  None  None  None  None     None          None          0,000       80,729             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 260.317.376          5.472     731  None  None  None  None  None  None  None     None          None          0,001       95,029             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 260.395.264          3.392     732  None  None  None  None  None  None  None     None          None          0,008       2405,658           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 268.074.848        301.632     733  None  None  None  None  None  None  None     None          None          1,952       6471,729           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 269.190.848          1.472     734  None  None  None  None  None  None  None     None          None          0,000       10,870             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 269.323.136         56.384     735  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 274.841.696        260.448     736  None  None  None  None  None  None  None     None          None          1,952       7494,711           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 275.911.840          1.504     737  None  None  None  None  None  None  None     None          None          0,000       10,638             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 276.011.360     48.857.728     738  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 325.124.000        259.488     739  None  None  None  None  None  None  None     None          None          1,952       7522,042           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 326.184.768          1.536     740  None  None  None  None  None  None  None     None          None          0,000       10,417             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 326.275.456     46.944.704     741  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 374.069.824        300.896     742  None  None  None  None  None  None  None     None          None          1,952       6487,347           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 375.014.688            960     743  None  None  None  None  None  None  None     None          None          0,000       16,667             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 375.021.440     31.704.224     744  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 406.941.280        180.512     745  None  None  None  None  None  None  None     None          None          1,952       10813,546          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 407.725.248            992     746  None  None  None  None  None  None  None     None          None          0,000       16,129             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 407.790.112     30.398.656     747  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 438.559.456        220.160     748  None  None  None  None  None  None  None     None          None          1,952       8867,147           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 439.296.000            800     749  None  None  None  None  None  None  None     None          None          0,000       20,000             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 439.301.088     26.051.488     750  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 465.579.552        166.912     751  None  None  None  None  None  None  None     None          None          1,952       11695,966          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 466.256.064            800     752  None  None  None  None  None  None  None     None          None          0,000       20,000             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 466.344.448     25.497.184     753  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 492.283.840        170.848     754  None  None  None  None  None  None  None     None          None          1,952       11426,554          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 492.925.504            768     755  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 492.930.528     24.801.984     756  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 517.930.464        169.312     757  None  None  None  None  None  None  None     None          None          1,952       11530,024          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 518.611.808            768     758  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 518.696.480     24.589.120     759  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 543.474.432        188.032     760  None  None  None  None  None  None  None     None          None          1,952       10382,097          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 544.164.576            736     761  None  None  None  None  None  None  None     None          None          0,000       21,739             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 544.244.160     24.477.792     762  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 569.150.624        173.824     763  None  None  None  None  None  None  None     None          None          1,952       11229,377          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 569.804.288            768     764  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 569.809.280     24.502.656     765  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 594.511.168        178.496     766  None  None  None  None  None  None  None     None          None          1,952       10936,538          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 595.192.448            768     767  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 595.246.528     24.465.696     768  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 620.160.448        199.104     769  None  None  None  None  None  None  None     None          None          1,952       9804,230           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 620.850.720            768     770  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 620.855.584     24.463.040     771  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 645.734.432        171.936     772  None  None  None  None  None  None  None     None          None          1,952       11354,321          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 646.390.912            768     773  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 646.395.712     24.478.528     774  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 671.278.368        185.472     775  None  None  None  None  None  None  None     None          None          1,952       10524,612          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 671.965.600            736     776  None  None  None  None  None  None  None     None          None          0,000       21,739             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 672.046.976     24.442.656     777  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 696.885.472        173.568     778  None  None  None  None  None  None  None     None          None          1,952       11246,947          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 697.532.064            768     779  None  None  None  None  None  None  None     None          None          0,000       20,833             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 697.536.896     24.475.488     780  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 722.544.768        208.384     781  None  None  None  None  None  None  None     None          None          1,952       9366,924           Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 723.255.648            736     782  None  None  None  None  None  None  None     None          None          0,000       21,739             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 723.260.576     24.431.424     783  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 748.234.688        172.288     784  None  None  None  None  None  None  None     None          None          1,952       11330,894          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 748.893.824            736     785  None  None  None  None  None  None  None     None          None          0,000       21,739             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 748.898.848     24.449.952     786  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 773.849.248        185.248     787  None  None  None  None  None  None  None     None          None          1,952       10538,278          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 774.529.824            736     788  None  None  None  None  None  None  None     None          None          0,000       21,739             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 774.534.944     24.483.520     789  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 799.467.424        182.944     790  None  None  None  None  None  None  None     None          None          1,952       10671,031          Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 800.115.680            992     791  None  None  None  None  None  None  None     None          None          0,000       16,129             Pageable  Device    Orin (0)    1     7  [CUDA memcpy HtoD]
+ 800.121.216     24.511.392     792  51    1     1     256   1     1     52       0,012         0,000         None                           None      None      Orin (0)    1     7  kernel()          
+ 824.635.936          3.424     793  None  None  None  None  None  None  None     None          None          0,008       2429,906           Device    Pageable  Orin (0)    1     7  [CUDA memcpy DtoH]
+ 824.821.472          3.712     794  None  None  None  None  None  None  None     None          None          0,008       2241,375           Device    Pageable  Orin (0)    1     7  [CUDA memcpy DtoH]
+ 825.146.464          3.072     795  None  None  None  None  None  None  None     None          None          0,013       4197,906           Device    Pageable  Orin (0)    1     7  [CUDA memcpy DtoH]
+ 825.188.832          3.008     796  None  None  None  None  None  None  None     None          None          0,013       4287,224           Device    Pageable  Orin (0)    1     7  [CUDA memcpy DtoH]
+

@@ -1,0 +1,30 @@
+The following are synchronous memory transfers that block the host. This does
+not include host to device transfers of a memory block of 64 KB or less.
+
+ Duration (ns)  Start (ns)   Src Kind  Dst Kind  Bytes (MB)    PID    Device ID  Context ID  Stream ID      API Name    
+ -------------  -----------  --------  --------  ----------  -------  ---------  ----------  ---------  ----------------
+       301.632  268.074.848  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       300.896  374.069.824  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       260.448  274.841.696  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       259.488  325.124.000  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       220.160  438.559.456  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       208.384  722.544.768  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       199.104  620.160.448  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       188.032  543.474.432  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       185.472  671.278.368  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       185.248  773.849.248  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       182.944  799.467.424  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       180.512  406.941.280  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       178.496  594.511.168  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       173.824  569.150.624  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       173.568  696.885.472  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       172.288  748.234.688  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       171.936  645.734.432  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       170.848  492.283.840  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       169.312  517.930.464  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+       166.912  465.579.552  Pageable  Device    1,952       577.090          0           1          7  cudaMemcpy_v3020
+         3.712  824.821.472  Device    Pageable  0,008       577.090          0           1          7  cudaMemcpy_v3020
+         3.424  824.635.936  Device    Pageable  0,008       577.090          0           1          7  cudaMemcpy_v3020
+         3.072  825.146.464  Device    Pageable  0,013       577.090          0           1          7  cudaMemcpy_v3020
+         3.008  825.188.832  Device    Pageable  0,013       577.090          0           1          7  cudaMemcpy_v3020
+

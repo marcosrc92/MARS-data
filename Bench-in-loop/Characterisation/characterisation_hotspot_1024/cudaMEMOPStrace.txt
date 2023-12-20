@@ -1,0 +1,9 @@
+The following are synchronous memory transfers that block the host. This does
+not include host to device transfers of a memory block of 64 KB or less.
+
+ Duration (ns)   Start (ns)    Src Kind  Dst Kind  Bytes (MB)    PID    Device ID  Context ID  Stream ID      API Name    
+ -------------  -------------  --------  --------  ----------  -------  ---------  ----------  ---------  ----------------
+     2.839.040  1.202.327.392  Device    Pageable  4,194       569.212          0           1          7  cudaMemcpy_v3020
+     1.087.136  1.185.803.488  Pageable  Device    4,194       569.212          0           1          7  cudaMemcpy_v3020
+     1.039.744  1.189.177.472  Pageable  Device    4,194       569.212          0           1          7  cudaMemcpy_v3020
+
