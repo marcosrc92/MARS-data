@@ -9,33 +9,35 @@ This repository contains data organized in multiple levels of folders, comprisin
 The data is organized into the following folder structure:
 
 ```
-project-root/
+Bench-in-loop/
 │
-├── data/
-│   ├── level_1/
+├── Characterisation/
+│   ├── Characterisation_(benchName)_(data)/
 │   │   ├── file_1.txt
 │   │   ├── file_2.txt
 │   │   └── ...
 │   │
-│   ├── level_2/
-│   │   ├── file_3.txt
-│   │   ├── file_4.txt
-│   │   └── ...
-│   │
 │   └── ...
 │
-└── images/
-    ├── level_1/
-    │   ├── histogram_1.png
-    │   ├── histogram_2.png
-    │   └── ...
-    │
-    ├── level_2/
-    │   ├── histogram_3.png
-    │   ├── histogram_4.png
-    │   └── ...
-    │
-    └── ...
+├── Dense_Linear_Algebra/
+│    ├── (Allocation_Method)/
+│    │   ├── (Bench_folder)
+│    │   │   ├── (metric_measured).txt
+│    │   │   ├── (metric_measured)_histogram.png
+│    │   │   └── ...
+│    │   └── ...
+│    └── ...
+│
+├── Graph_Traversal/
+│    ├── (Allocation_Method)/
+│    │   ├── (Bench_folder)
+│    │   │   ├── (metric_measured).txt
+│    │   │   ├── (metric_measured)_histogram.png
+│    │   │   └── ...
+│    │   └── ...
+│    └── ...
+│   
+└── (Other DWARFS)...
 ```
 
 ## Usage
