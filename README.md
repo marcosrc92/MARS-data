@@ -15,6 +15,7 @@ Bench-in-loop/
 │   ├── Characterisation_(benchName)_(data)/
 │   │   ├── file_1.txt
 │   │   ├── file_2.txt
+│   │   ├── Summary.xlsx
 │   │   └── ...
 │   │
 │   └── ...
@@ -26,6 +27,7 @@ Bench-in-loop/
 │    │   │   ├── (metric_measured)_histogram.png
 │    │   │   └── ...
 │    │   └── ...
+│    ├── Summary.xlsx
 │    └── ...
 │
 ├── Graph_Traversal/
@@ -42,55 +44,11 @@ Bench-in-loop/
 
 ## Usage
 
-Explore the data and visualizations to gain insights. You can use the files for analysis or incorporate the images into your reports and presentations.
+Explore the data and visualizations to gain insights about the conclusions of "Embedded GPU Memory Allocation Regarding Safety".
 
-## Getting Started
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd your-repository
-    ```
-
-3. Explore the data and images in the respective folders.
-
-## Contributing
-
-Feel free to contribute by adding more data, improving visualizations, or enhancing documentation. Follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-
-    ```bash
-    git checkout -b feature/new-feature
-    ```
-
-3. Make your changes and commit them:
-
-    ```bash
-    git commit -am 'Add new feature'
-    ```
-
-4. Push the changes to your fork:
-
-    ```bash
-    git push origin feature/new-feature
-    ```
-
-5. Open a pull request to the main repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
 
 - Mention any contributors or resources that you found helpful.
 
-Feel free to customize this README according to the specifics of your project.
+
