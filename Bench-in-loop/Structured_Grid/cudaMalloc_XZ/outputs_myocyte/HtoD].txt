@@ -497,4 +497,8 @@
       0.3         10202912       7800       1308.1       1504.0        768       4992        309.6  MEMORY_OPER  [CUDA memcpy HtoD]                             
       0.3         11454176       7800       1468.5       1504.0       1088       5504        336.0  MEMORY_OPER  [CUDA memcpy HtoD]                             
       0.3         10943648       7800       1403.0       1504.0       1120       5696        223.0  MEMORY_OPER  [CUDA memcpy HtoD]                             
-      0.3         10775808       7800       1381.5       1504.0        928       5280        286.7  MEMORY_OPER  [CUDA memcpy HtoD]          
+      0.3         10775808       7800       1381.5       1504.0        928       5280        286.7  MEMORY_OPER  [CUDA memcpy HtoD]                             
+
+Mean: 1445.2454
+Standard Deviation: 119.85412509147478
+    

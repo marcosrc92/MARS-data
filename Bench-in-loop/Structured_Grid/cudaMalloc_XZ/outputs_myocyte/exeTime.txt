@@ -498,3 +498,6 @@
 2244.7664         0.0260  cudaMemcpy             0   19604  375711  375711     20  myocyte.out
 2388.1267         0.0422  cudaMemcpy             0   19604  375878  375878     20  myocyte.out
 2222.4471         0.0251  cudaMemcpy             0   19604  376044  376044     20  myocyte.out
+
+Mean: 2283.8637466
+Standard Deviation: 191.4937205536586

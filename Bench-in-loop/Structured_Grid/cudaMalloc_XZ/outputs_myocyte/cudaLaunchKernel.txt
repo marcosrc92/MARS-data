@@ -497,4 +497,8 @@
       3.4        111662112       3900      28631.3      22368.0      10752     175456      17112.7  CUDA_API     cudaLaunchKernel                               
       2.0         67739328       3900      17369.1      13536.0      10112     118176      10285.4  CUDA_API     cudaLaunchKernel                               
       3.5        123940416       3900      31779.6      23392.0      11616     165216      17749.7  CUDA_API     cudaLaunchKernel                               
-      2.7         90605280       3900      23232.1      18032.0      10112     212512      17228.3  CUDA_API     cudaLaunchKernel                                
+      2.7         90605280       3900      23232.1      18032.0      10112     212512      17228.3  CUDA_API     cudaLaunchKernel                               
+
+Mean: 24682.8176
+Standard Deviation: 4436.355942173887
+     

@@ -498,3 +498,6 @@
 36.1 1244897792 3900 319204.6 345792.0 253920 431488 44347.9 CUDA_KERNEL kernel(int, float *, float *, float *, float *)
 34.4 1221446592 3900 313191.4 345792.0 254432 431168 45443.8 CUDA_KERNEL kernel(int, float *, float *, float *, float *)
 35.4 1194774080 3900 306352.3 345760.0 207584 446848 48931.0 CUDA_KERNEL kernel(int, float *, float *, float *, float *)
+
+Mean: 318481.8698
+Standard Deviation: 25411.56161256617
