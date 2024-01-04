@@ -46,7 +46,7 @@ Bench-in-loop/
 
 Explore the data and visualizations to gain insights about the conclusions of "Embedded GPU Memory Allocation Regarding Safety".
 Characterisation folder contains text files with all data gathered from a static analysis of the code and an Excel file which summarize al raw data.
-The next folders contains text documents of temporal analysis organised as explained before, a first level which contains the DWARF evaluated and an Excel file, a second level with the allocation method for each DWARF with text files and its histograms. Please notice that this files had no header, this was convenient for faster coding when parsing data for extracting mean and standard deviation values.
+The next folders contains text documents of temporal analysis organised as explained before, a first level which contains the DWARF evaluated and an Excel file, a second level with the allocation method for each DWARF with text files and its histograms. Please notice that this files has no header, this was convenient for faster coding when parsing data for extracting mean and standard deviation values.
 
 ```
 exeTime.txt files has this header
